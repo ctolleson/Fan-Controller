@@ -1796,7 +1796,7 @@
 			(at 59.69 88.9 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 59.69 85.09 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1837,7 +1837,7 @@
 			(at 144.78 88.9 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 144.78 85.09 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1878,7 +1878,7 @@
 			(at 224.79 88.9 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 224.79 85.09 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1919,7 +1919,7 @@
 			(at 49.53 133.35 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 49.53 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1960,7 +1960,7 @@
 			(at 134.62 133.35 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 134.62 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2001,7 +2001,7 @@
 			(at 214.63 133.35 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 214.63 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2042,7 +2042,7 @@
 			(at 154.94 133.35 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 154.94 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2083,7 +2083,7 @@
 			(at 30.48 133.35 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(property "Footprint" "Recovered2018:CP_Elec_6.3x5.8"
 			(at 30.48 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2120,7 +2120,7 @@
 			(at 44.45 58.42 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 44.45 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2161,7 +2161,7 @@
 			(at 100.33 58.42 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 100.33 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2202,7 +2202,7 @@
 			(at 124.46 58.42 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 124.46 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2239,7 +2239,7 @@
 			(at 165.1 58.42 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 165.1 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2276,7 +2276,7 @@
 			(at 204.47 58.42 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 204.47 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2428,7 +2428,7 @@
 			(at 88.9 34.29 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 88.9 30.48 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)

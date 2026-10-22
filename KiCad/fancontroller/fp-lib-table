@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Recovered2018")(type "KiCad")(uri "${KIPRJMOD}/Recovered2018.pretty")(options "")(descr "Official KiCad 5.0.0 land patterns matching supplied 2018 Gerbers"))
+)
