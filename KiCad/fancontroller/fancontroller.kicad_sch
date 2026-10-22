@@ -5,6 +5,213 @@
 	(uuid "97550efb-8a25-4e8f-a675-896628ec4139")
 	(paper "A4")
 	(lib_symbols
+	(symbol "custom_symbols:TS2938CS50"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS2938CS50"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TS2938CS50_1_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 180)
+				(length 2.54)
+				(name "INHIBIT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.78 180)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Connector_Generic:Conn_01x02"
 		(pin_names
 			(offset 1.016)
@@ -1597,6 +1804,14 @@
 			(at 59.69 85.09 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "MPN" "NE555DR"
+			(at 59.69 85.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C7593"
+			(at 59.69 85.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(instances
 			(project "fancontroller"
 				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
@@ -1627,6 +1842,14 @@
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Datasheet" "~"
+			(at 144.78 85.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "LM311DR"
+			(at 144.78 85.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C12597"
 			(at 144.78 85.09 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1663,6 +1886,14 @@
 			(at 224.79 85.09 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "MPN" "NE555DR"
+			(at 224.79 85.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C7593"
+			(at 224.79 85.09 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(instances
 			(project "fancontroller"
 				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
@@ -1693,6 +1924,14 @@
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Datasheet" "~"
+			(at 49.53 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "C1206C561K5RAC7800"
+			(at 49.53 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C2178336"
 			(at 49.53 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1729,6 +1968,14 @@
 			(at 134.62 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "MPN" "C0603C104K3RALTU"
+			(at 134.62 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C2167748"
+			(at 134.62 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(instances
 			(project "fancontroller"
 				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
@@ -1759,6 +2006,14 @@
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Datasheet" "~"
+			(at 214.63 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "C0603C104K3RALTU"
+			(at 214.63 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C2167748"
 			(at 214.63 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1795,6 +2050,14 @@
 			(at 154.94 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "MPN" "C1206C101KCRACTU"
+			(at 154.94 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C2178961"
+			(at 154.94 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(instances
 			(project "fancontroller"
 				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
@@ -1825,6 +2088,10 @@
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Datasheet" "~"
+			(at 30.48 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "UUL1A470MCL1GS"
 			(at 30.48 129.54 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1861,6 +2128,14 @@
 			(at 44.45 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "MPN" "RC1206FR-0710KL"
+			(at 44.45 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C132649"
+			(at 44.45 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(instances
 			(project "fancontroller"
 				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
@@ -1891,6 +2166,14 @@
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Datasheet" "~"
+			(at 100.33 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC1206FR-0747KL"
+			(at 100.33 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C137270"
 			(at 100.33 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1927,6 +2210,10 @@
 			(at 124.46 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "MPN" "RC1206FR-079K1L"
+			(at 124.46 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(instances
 			(project "fancontroller"
 				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
@@ -1957,6 +2244,10 @@
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Datasheet" "~"
+			(at 165.1 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC1206FR-079K1L"
 			(at 165.1 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -1993,6 +2284,14 @@
 			(at 204.47 54.61 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "MPN" "RC1206FR-071KL"
+			(at 204.47 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C131398"
+			(at 204.47 54.61 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(instances
 			(project "fancontroller"
 				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
@@ -2026,6 +2325,14 @@
 			(at 124.46 100.33 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "MPN" "PDF241-S425F-103B0"
+			(at 124.46 100.33 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C6626952"
+			(at 124.46 100.33 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(instances
 			(project "fancontroller"
 				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
@@ -2056,6 +2363,10 @@
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Datasheet" "~"
+			(at 265.43 64.77 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "0470531000"
 			(at 265.43 64.77 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -2096,6 +2407,47 @@
 			(project "fancontroller"
 				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
 					(reference "J2") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_symbols:TS2938CS50")
+		(at 88.9 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f6dd48d-6160-4e86-bf51-0dca88664e10")
+		(property "Reference" "REG1"
+			(at 88.9 26.67 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "TS2938CS50"
+			(at 88.9 34.29 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 88.9 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 88.9 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "TS2938CS50 RLG"
+			(at 88.9 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C557546"
+			(at 88.9 30.48 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "fancontroller"
+				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
+					(reference "REG1") (unit 1)
 				)
 			)
 		)
