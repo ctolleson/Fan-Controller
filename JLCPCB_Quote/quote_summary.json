@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-22",
+  "currency": "USD",
+  "boards": 5,
+  "assembly": "Economic, Top Side",
+  "smt_parts_per_board": 14,
+  "bom_lines": 11,
+  "all_bom_lines_confirmed": true,
+  "pcb_usd": 4.0,
+  "pcba_usd": 55.91,
+  "total_before_shipping_tax_usd": 59.91,
+  "pcba_detail_usd": {
+    "setup": 8.24,
+    "stencil": 1.55,
+    "components_including_attrition": 13.64,
+    "extended_components": 30.9,
+    "smt_assembly": 0.67,
+    "nitrogen_reflow": 0.91
+  },
+  "pcb_build_time": "24 hours",
+  "assembly_build_time": "1-2 days",
+  "shipping_tax": "not included; not finalized",
+  "supply_v": 12,
+  "draft_url": "https://cart.jlcpcb.com/smt-order/?pcbFileNo=30188cbaad6147518de35d540fbe1b3e",
+  "order_placed": false,
+  "candidate_only": true,
+  "validation": "footprint geometry and courtyard checks pass; electrical reconstruction still blocked (DRC 639, ERC 79)",
+  "vendor_preview": "visually reviewed centers, IC pin-1 markers and C5 positive polarity; some 3D models unavailable; vendor final DFM placement review still required"
+}

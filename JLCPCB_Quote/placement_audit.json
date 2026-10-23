@@ -1,0 +1,155 @@
+{
+  "scope": "Geometry verified; electrical validation incomplete; quote only",
+  "footprint_source": "https://github.com/KiCad/kicad-footprints/tree/5.0.0",
+  "quantity": 5,
+  "C5_correction": "135 to 315 degrees, matching asymmetric source silkscreen",
+  "pin1_silkscreen_matches": {
+    "IC1": 0,
+    "IC2": 0,
+    "IC3": 0,
+    "REG1": 315,
+    "C5": 315
+  },
+  "components": [
+    {
+      "reference": "C1",
+      "x_mm": 81.28,
+      "y_mm": 160.909,
+      "rotation": 0,
+      "footprint": "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "value": "560pF",
+      "pads": 2,
+      "maximum_offset_mm": 0.0
+    },
+    {
+      "reference": "C2",
+      "x_mm": 94.996,
+      "y_mm": 155.448,
+      "rotation": 90.0,
+      "footprint": "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder",
+      "value": "100nF",
+      "pads": 2,
+      "maximum_offset_mm": 0.0
+    },
+    {
+      "reference": "C3",
+      "x_mm": 94.996,
+      "y_mm": 164.592,
+      "rotation": 90.0,
+      "footprint": "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder",
+      "value": "100nF",
+      "pads": 2,
+      "maximum_offset_mm": 0.0
+    },
+    {
+      "reference": "C4",
+      "x_mm": 96.52,
+      "y_mm": 172.429,
+      "rotation": 90.0,
+      "footprint": "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "value": "100pF",
+      "pads": 2,
+      "maximum_offset_mm": 0.0005000000000165983
+    },
+    {
+      "reference": "C5",
+      "x_mm": 84.328,
+      "y_mm": 147.574,
+      "rotation": 315.0,
+      "footprint": "Recovered2018:CP_Elec_6.3x5.8",
+      "value": "47uF 10V",
+      "pads": 2,
+      "maximum_offset_mm": 4.3728003464219515e-07
+    },
+    {
+      "reference": "IC1",
+      "x_mm": 95.8596,
+      "y_mm": 150.52,
+      "rotation": 0,
+      "footprint": "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm",
+      "value": "NE555DR",
+      "pads": 8,
+      "maximum_offset_mm": 0.0003999999999848569
+    },
+    {
+      "reference": "IC2",
+      "x_mm": 90.17,
+      "y_mm": 158.496,
+      "rotation": 0,
+      "footprint": "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm",
+      "value": "LM311DR",
+      "pads": 8,
+      "maximum_offset_mm": 2.842170943040401e-14
+    },
+    {
+      "reference": "IC3",
+      "x_mm": 90.17,
+      "y_mm": 167.64,
+      "rotation": 0,
+      "footprint": "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm",
+      "value": "NE555DR",
+      "pads": 8,
+      "maximum_offset_mm": 2.842170943040401e-14
+    },
+    {
+      "reference": "R1",
+      "x_mm": 81.28,
+      "y_mm": 154.432,
+      "rotation": 0,
+      "footprint": "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "value": "10k",
+      "pads": 2,
+      "maximum_offset_mm": 0.0
+    },
+    {
+      "reference": "R2",
+      "x_mm": 81.28,
+      "y_mm": 157.48,
+      "rotation": 0,
+      "footprint": "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "value": "47k",
+      "pads": 2,
+      "maximum_offset_mm": 0.0
+    },
+    {
+      "reference": "R3",
+      "x_mm": 81.28,
+      "y_mm": 164.465,
+      "rotation": 0,
+      "footprint": "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "value": "9.1k",
+      "pads": 2,
+      "maximum_offset_mm": 0.0
+    },
+    {
+      "reference": "R4",
+      "x_mm": 81.28,
+      "y_mm": 167.513,
+      "rotation": 0,
+      "footprint": "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "value": "9.1k",
+      "pads": 2,
+      "maximum_offset_mm": 0.0
+    },
+    {
+      "reference": "R5",
+      "x_mm": 90.3335,
+      "y_mm": 162.56,
+      "rotation": 0,
+      "footprint": "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "value": "1k",
+      "pads": 2,
+      "maximum_offset_mm": 0.0
+    },
+    {
+      "reference": "REG1",
+      "x_mm": 89.6366,
+      "y_mm": 143.434,
+      "rotation": 315.0,
+      "footprint": "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm",
+      "value": "TS2938CS50",
+      "pads": 8,
+      "maximum_offset_mm": 0.00020049688289974307
+    }
+  ]
+}

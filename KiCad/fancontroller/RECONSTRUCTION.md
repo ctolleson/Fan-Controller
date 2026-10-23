@@ -36,3 +36,5 @@ This project was reconstructed from the supplied Gerber, drill, image, and BOM f
 3. Resolve BOM candidates and footprints, then rerun ERC and DRC. Export fresh Gerbers, drill files, assembly BOM, and position file from the validated project.
 
 The current quote scope is five boards with 14 SMT parts per board. P1, J1 and J2 are excluded for hand assembly. The supplied `Gerber/` directory remains the source of the quote ZIP, including front and back silkscreen files. No replacement fabrication Gerbers were exported from the incomplete reconstruction. A quote does not approve fabrication or resolve the remaining electrical checks.
+
+JLCPCB returned USD 59.91 before shipping and tax on 2026-10-22. All 11 BOM lines are confirmed using four stocked replacements, recorded in `../../JLCPCB_Quote/substitutions.json` and the populated workbook. The user confirmed 12 V operation. The proposed KF50BD-TR regulator is limited to 20 V input; the original 12–28 V silkscreen does not apply to this proposed build. Native CAD component values remain the recovered original design; quote substitutions require electrical review before a revised manufacturing release.

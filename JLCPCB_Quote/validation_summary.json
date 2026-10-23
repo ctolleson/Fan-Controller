@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-22",
+  "verdict": "quote draft; manufacturing release blocked",
+  "footprints": 14,
+  "pad_center_max_offset_mm": 0.0005,
+  "courtyard_violations": 0,
+  "drc_findings_before": 667,
+  "drc_findings_after": 639,
+  "drc_by_type": {
+    "annular_width": 7,
+    "shorting_items": 80,
+    "track_width": 110,
+    "via_diameter": 1,
+    "solder_mask_bridge": 149,
+    "track_dangling": 9,
+    "via_dangling": 20,
+    "silk_overlap": 199,
+    "silk_over_copper": 64
+  },
+  "erc_findings": 79,
+  "drc_ignored_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "waivers_added": false,
+  "dfm_status": "blocked by unresolved DRC; imported artwork is not electrically reconstructed",
+  "source": "original supplied Gerbers, not new reconstruction exports",
+  "assembly_scope": {
+    "boards": 5,
+    "smt_parts_per_board": 14,
+    "excluded_hand_assembly": [
+      "P1",
+      "J1",
+      "J2"
+    ]
+  }
+}

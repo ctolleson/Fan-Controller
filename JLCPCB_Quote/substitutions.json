@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-22",
+  "user_authorized_stocked_replacements": true,
+  "user_confirmed_supply_v": 12,
+  "replacements": {
+    "REG1": {
+      "original_mpn": "TS2938CS50 RLG",
+      "original_code": "C557546",
+      "mpn": "KF50BD-TR",
+      "code": "C222151",
+      "manufacturer": "STMicroelectronics",
+      "comment": "5 V, 500 mA LDO; 12 V build only",
+      "notes": "Same pinout and active-low inhibit. Input limit 20 V; user confirmed 12 V supply. Original 12-28 V silkscreen is not valid for this build.",
+      "stock_at_selection": 3265,
+      "source": "https://www.st.com/resource/en/datasheet/kfxx.pdf"
+    },
+    "C1": {
+      "original_mpn": "C1206C561K5RAC7800",
+      "original_code": "C2178336",
+      "mpn": "CC1206JRNPO9BN561",
+      "code": "C577166",
+      "manufacturer": "Yageo",
+      "comment": "560 pF, 50 V, NP0, 5% capacitor",
+      "notes": "Same 1206 size and 560 pF value; NP0 5% replaces X7R 10%.",
+      "stock_at_selection": 237,
+      "source": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPO9BN561/C577166"
+    },
+    "C4": {
+      "original_mpn": "C1206C101KCRACTU",
+      "original_code": "C2178961",
+      "mpn": "CC1206JRNPOBBN101",
+      "code": "C113888",
+      "manufacturer": "Yageo",
+      "comment": "100 pF, 500 V, NP0, 5% capacitor",
+      "notes": "Same 1206 size, 100 pF value and 500 V rating; tighter tolerance.",
+      "stock_at_selection": 15028,
+      "source": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPOBBN101/C113888"
+    },
+    "C5": {
+      "original_mpn": "UUL1A470MCL1GS",
+      "original_code": "C2163177",
+      "mpn": "EEEFK1V470AP",
+      "code": "C336786",
+      "manufacturer": "Panasonic",
+      "comment": "47 uF, 35 V polarized aluminum capacitor",
+      "notes": "Same 6.3x5.8 mm case; 0.36 ohm impedance at 100 kHz. Endurance 2000 h at 105 C vs original 5000 h. Vendor preview positive terminal matches original silk.",
+      "stock_at_selection": 2961,
+      "source": "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-smd/models/EEEFK1V470AP"
+    }
+  }
+}

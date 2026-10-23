@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22",
+  "scope": "quote only",
+  "source_files": {
+    "Gerber/fancontroller-B.Cu.gbr": "448f7d07e84d1bf9b82a35ab1b1b6ffb06c65fc3927aa07f5dbc8d4ac29211d8",
+    "Gerber/fancontroller-B.Mask.gbr": "abc89b41524693b2b16875dab7c78f8a8bce865862a00999107ccdea60c57c44",
+    "Gerber/fancontroller-B.Paste.gbr": "2ba9cc34697907ba5b605d32221b849accb662a5dabdf3e62800538fa845b2d9",
+    "Gerber/fancontroller-B.SilkS.gbr": "35531e1de309f4b956a4d78ab3092ec0c7b8efea9fb906d654ca6b4c061adc04",
+    "Gerber/fancontroller-Edge.Cuts.gbr": "8ded50195b657e16439a019bc24fa147f92f95cb54c2aecbcc38998112f6860d",
+    "Gerber/fancontroller-F.Cu.gbr": "2e5e36204e8df53a5a4cab493487a4a530a3299d084824c475f6f7af2e267429",
+    "Gerber/fancontroller-F.Mask.gbr": "184f06c682094b58b31a4533f7e6c885a42a7d68267fa20ba4a954cd7eeab0d7",
+    "Gerber/fancontroller-F.Paste.gbr": "15e1360cd38214480efe14ea2f49a6ff12704bd1cdbb0ebd66d37c7dc622132c",
+    "Gerber/fancontroller-F.SilkS.gbr": "c07834e87bbabd43f043878eafb6d7e788f095947a1d3a552906a49c4e8b138e",
+    "Gerber/fancontroller-NPTH.drl": "6ae7491a2984cbf2267391cf1f6892b08217c7b6d998b8aea17e21d942c74d12",
+    "Gerber/fancontroller-PTH.drl": "f6c759ae235b8b8a33ec07b1487b883b22103505e96af7bec0b3f842d3ba0333"
+  },
+  "quote_files": {
+    "fancontroller_original_gerbers.zip": "6fd6d42baa246e4fc82391e775e40a0866e1acd1ce83e9f21059252e16cfb784",
+    "BOM.csv": "4580e6f30057784bfca5593b88574574855170a5be2765feb39927f4eeecbc34",
+    "CPL.csv": "3fe27ca9d6ffdf35af38e321d2e22c758904aa0dbf4f110a0a6992cd3bc2406c",
+    "positions-kicad-mm.csv": "a80677d73c72282f8f8b390bea1942c215d4088dbfbab5cd3e970e427d1d0d0b",
+    "placement_audit.json": "1208840b6fb9a3edd51d69d7b81703f6fb2289a4149f346541896de7d9cf4b29",
+    "validation_summary.json": "5c9aecd0c3cc3788306f61ed3cbfcf925bc551a753c913bd5bd0ef4652229e77",
+    "quote_59_91.png": "24570b685d907eacf911d57f608432f13527090cbf2dc0d7338374a449c18057",
+    "upload_step.png": "6ed6ece76089c1c8aacabc6210e9e54df3fdbdbdc179ecf71e965a7c3bd0cb0c",
+    "README.md": "9f0d938b6e1a7b55607beee5fc44590b9f842c9c7f97b622eeaee2f168a3f2e2",
+    "substitutions.json": "9e9d95fc236a93f61a0ed152ec0ba6942fadcc549b5dd7ddbaf0f0e036389c54",
+    "quote_summary.json": "788dc0d404c1604aefbf14180acb77cd79fe44c28b76ea76f50ef3052ab63512",
+    "bom_shortages.png": "aaa92da0ce926180eee535b70467f08d852abe97a8aa99331782a8d5774a41de",
+    "placement_preview.png": "b749b8672da9d2c0d8bb127bcd34d5a830d23dd177687a8751600b2c9a7ed029",
+    "BOM_uploaded_initial.csv": "01dc54139c30ad89e342301f902a16f4088bf1ea5b3a2c8af4aa988cde331555"
+  }
+}
