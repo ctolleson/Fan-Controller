@@ -2617,11 +2617,11 @@
 		(dnp no)
 		(uuid "ebcae8a5-5fc8-4cdb-9170-a4a4bac0612c")
 		(property "Reference" "IC1"
-			(at 59.69 81.28 0)
+			(at 72.39 84.201 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "NE555DR"
-			(at 59.69 88.9 0)
+			(at 72.39 85.979 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -2658,11 +2658,11 @@
 		(dnp no)
 		(uuid "db3b5138-505f-47af-b986-4a535d4958be")
 		(property "Reference" "IC2"
-			(at 144.78 81.28 0)
+			(at 154.94 84.201 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "LM311DR"
-			(at 144.78 88.9 0)
+			(at 154.94 85.979 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -2699,11 +2699,11 @@
 		(dnp no)
 		(uuid "525a3915-bd0d-45a8-ac90-d029f98a4b1a")
 		(property "Reference" "IC3"
-			(at 224.79 81.28 0)
+			(at 237.49 84.201 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "NE555DR"
-			(at 224.79 88.9 0)
+			(at 237.49 85.979 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -2740,11 +2740,11 @@
 		(dnp no)
 		(uuid "98dbbb48-658a-47cf-aa80-2d19ba7600ae")
 		(property "Reference" "C1"
-			(at 49.53 125.73 0)
+			(at 52.07 128.651 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "560pF"
-			(at 49.53 133.35 0)
+			(at 52.07 130.429 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
@@ -2781,11 +2781,11 @@
 		(dnp no)
 		(uuid "00b59277-4e42-46b3-925d-061603a7ea9f")
 		(property "Reference" "C2"
-			(at 134.62 125.73 0)
+			(at 137.16 128.651 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "100nF"
-			(at 134.62 133.35 0)
+			(at 137.16 130.429 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -2822,11 +2822,11 @@
 		(dnp no)
 		(uuid "d2ba46c6-58ff-4bda-bfed-7c6441b4405d")
 		(property "Reference" "C3"
-			(at 214.63 125.73 0)
+			(at 217.17 128.651 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "100nF"
-			(at 214.63 133.35 0)
+			(at 217.17 130.429 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -2863,11 +2863,11 @@
 		(dnp no)
 		(uuid "5644a8b9-2b5d-420b-82e1-96f1045aa701")
 		(property "Reference" "C4"
-			(at 154.94 125.73 0)
+			(at 157.48 128.651 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "100pF"
-			(at 154.94 133.35 0)
+			(at 157.48 130.429 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
@@ -2904,11 +2904,11 @@
 		(dnp no)
 		(uuid "9d31a4a3-9070-4fb4-8442-2b6ad35a8130")
 		(property "Reference" "C5"
-			(at 30.48 125.73 0)
+			(at 33.02 128.651 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "47uF 35V"
-			(at 30.48 133.35 0)
+			(at 33.02 130.429 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:CP_Elec_6.3x5.8"
@@ -2945,11 +2945,11 @@
 		(dnp no)
 		(uuid "015cae18-635c-4105-886c-4dc68c2a445d")
 		(property "Reference" "R1"
-			(at 44.45 50.8 0)
+			(at 46.99 53.721 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "10k"
-			(at 44.45 58.42 0)
+			(at 46.99 55.499 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
@@ -2986,11 +2986,11 @@
 		(dnp no)
 		(uuid "75f7ef5a-d000-43a9-8fb8-10a48fa64158")
 		(property "Reference" "R2"
-			(at 100.33 50.8 0)
+			(at 102.87 53.721 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "47k"
-			(at 100.33 58.42 0)
+			(at 102.87 55.499 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
@@ -3027,11 +3027,11 @@
 		(dnp no)
 		(uuid "34daf088-ac39-43b0-8add-ee0ab8113d50")
 		(property "Reference" "R3"
-			(at 124.46 50.8 0)
+			(at 127 53.721 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "9.1k"
-			(at 124.46 58.42 0)
+			(at 127 55.499 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
@@ -3064,11 +3064,11 @@
 		(dnp no)
 		(uuid "bf161236-1f86-44d8-8018-32a99f917812")
 		(property "Reference" "R4"
-			(at 165.1 50.8 0)
+			(at 167.64 53.721 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "9.1k"
-			(at 165.1 58.42 0)
+			(at 167.64 55.499 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
@@ -3101,11 +3101,11 @@
 		(dnp no)
 		(uuid "028a9b17-f584-4dca-8c1e-b4dd277e321f")
 		(property "Reference" "R5"
-			(at 204.47 50.8 0)
+			(at 207.01 53.721 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "1k"
-			(at 204.47 58.42 0)
+			(at 207.01 55.499 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
@@ -3142,11 +3142,11 @@
 		(dnp no)
 		(uuid "4e6117c1-5e64-4f9d-b511-d6f57fc69816")
 		(property "Reference" "P1"
-			(at 124.46 96.52 0)
+			(at 126.365 91.567 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "10k"
-			(at 124.46 104.14 0)
+			(at 126.365 93.345 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
@@ -3183,11 +3183,11 @@
 		(dnp no)
 		(uuid "ca6d58c3-7a65-4823-91da-3cdd22475c43")
 		(property "Reference" "J1"
-			(at 265.43 60.96 0)
+			(at 262.89 65.151 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "Fan 4-pin"
-			(at 265.43 68.58 0)
+			(at 262.89 66.929 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
@@ -3220,11 +3220,11 @@
 		(dnp no)
 		(uuid "ab6a277b-2004-482c-967c-cf4b94b19f4e")
 		(property "Reference" "J2"
-			(at 265.43 111.76 0)
+			(at 262.89 115.951 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "Power input"
-			(at 265.43 119.38 0)
+			(at 262.89 117.729 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
@@ -3254,11 +3254,11 @@
 		(dnp no)
 		(uuid "6a288c9a-bf71-4e97-8675-447a1e2d33bc")
 		(property "Reference" "REG1"
-			(at 88.9 26.67 0)
+			(at 88.9 24.257 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "KF50BD-TR"
-			(at 88.9 34.29 0)
+			(at 88.9 26.035 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -3342,7 +3342,7 @@
 	
 	(symbol
 		(lib_id "power:+5V")
-		(at 102.87 29.21 270)
+		(at 102.87 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3375,7 +3375,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 139.7 133.35 270)
+		(at 139.7 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3408,7 +3408,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 219.71 125.73 270)
+		(at 219.71 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3441,7 +3441,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 35.56 125.73 270)
+		(at 35.56 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3474,7 +3474,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 44.45 80.01 90)
+		(at 44.45 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3573,7 +3573,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 209.55 80.01 90)
+		(at 209.55 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3639,7 +3639,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 49.53 50.8 270)
+		(at 49.53 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3672,7 +3672,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 170.18 50.8 270)
+		(at 170.18 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3705,7 +3705,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 209.55 58.42 270)
+		(at 209.55 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3738,7 +3738,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 255.27 118.11 90)
+		(at 255.27 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3771,7 +3771,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 255.27 64.77 90)
+		(at 255.27 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3804,7 +3804,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 74.93 29.21 90)
+		(at 74.93 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3837,7 +3837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 115.57 90)
+		(at 255.27 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3870,7 +3870,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 62.23 90)
+		(at 255.27 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3969,7 +3969,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 31.75 90)
+		(at 74.93 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4068,7 +4068,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 50.8 270)
+		(at 129.54 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4101,7 +4101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 133.35 270)
+		(at 54.61 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4134,7 +4134,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 125.73 270)
+		(at 139.7 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4167,7 +4167,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 133.35 270)
+		(at 219.71 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4200,7 +4200,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 133.35 270)
+		(at 160.02 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4233,7 +4233,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 133.35 270)
+		(at 35.56 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6245,11 +6245,11 @@
 		(dnp no)
 		(uuid "155962bb-9f6f-4b41-b7c4-748bc7148fe2")
 		(property "Reference" "H1"
-			(at 30.48 26.67 0)
+			(at 33.02 29.591 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "M2 mounting hole"
-			(at 30.48 34.29 0)
+			(at 33.02 31.369 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
@@ -6331,11 +6331,11 @@
 		(dnp no)
 		(uuid "ea38887f-a034-40a4-9b96-929191dc5f1a")
 		(property "Reference" "H2"
-			(at 50.8 26.67 0)
+			(at 53.34 29.591 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "M2 mounting hole"
-			(at 50.8 34.29 0)
+			(at 53.34 31.369 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
@@ -6417,11 +6417,11 @@
 		(dnp no)
 		(uuid "e9b4dd72-843d-4e06-af68-97b86ba420e5")
 		(property "Reference" "H3"
-			(at 175.26 26.67 0)
+			(at 177.8 29.591 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "M2 mounting hole"
-			(at 175.26 34.29 0)
+			(at 177.8 31.369 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
@@ -6503,11 +6503,11 @@
 		(dnp no)
 		(uuid "bd693df3-26aa-4807-a966-e6ff8acd6163")
 		(property "Reference" "H4"
-			(at 195.58 26.67 0)
+			(at 198.12 29.591 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "M2 mounting hole"
-			(at 195.58 34.29 0)
+			(at 198.12 31.369 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
@@ -6526,6 +6526,441 @@
 			)
 		)
 	)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca53ee43-7e41-4ccf-8cbc-de9c82b7289e")
+		(property "Reference" "C6"
+			(at 177.8 128.651 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100nF"
+			(at 177.8 130.429 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 175.26 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 175.26 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "C0603C104K3RALTU"
+			(at 175.26 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C2167748"
+			(at 175.26 129.54 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "fancontroller"
+				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
+					(reference "C6") (unit 1)
+				)
+			)
+		)
+	)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	(symbol
+		(lib_id "power:+12V")
+		(at 180.34 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82b0ad98-5c76-412d-8d5f-edde89eb0661")
+		(property "Reference" "#PWR7c98"
+			(at 180.34 119.38 270)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "+12V"
+			(at 180.34 120.65 270)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 180.34 125.73 270)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 180.34 125.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "fancontroller"
+				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
+					(reference "#PWR7c98") (unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4abf12e1-ce9f-41ac-87f7-8f4570859879")
+		(property "Reference" "#PWRc38a"
+			(at 180.34 139.7 270)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 180.34 138.43 270)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 180.34 133.35 270)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 180.34 133.35 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "fancontroller"
+				(path "/97550efb-8a25-4e8f-a675-896628ec4139"
+					(reference "#PWRc38a") (unit 1)
+				)
+			)
+		)
+	)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	(wire
 		(pts (xy 97.79 29.21) (xy 102.87 29.21))
 		(stroke (width 0) (type solid))
@@ -6790,6 +7225,16 @@
 		(pts (xy 255.27 69.85) (xy 260.35 69.85))
 		(stroke (width 0) (type solid))
 		(uuid "c9e4a28b-9ff2-41aa-b419-8292d226300d")
+	)
+	(wire
+		(pts (xy 175.26 125.73) (xy 180.34 125.73))
+		(stroke (width 0) (type solid))
+		(uuid "5c025d58-3dd1-45f3-a902-a2e7ad6983ae")
+	)
+	(wire
+		(pts (xy 175.26 133.35) (xy 180.34 133.35))
+		(stroke (width 0) (type solid))
+		(uuid "f323e372-862b-435b-be55-fe5b7ccd6550")
 	)
 	(sheet_instances
 		(path "/"

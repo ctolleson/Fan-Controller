@@ -1,3 +1,5 @@
+> **Historical quotes — superseded artwork.** On 2026-10-22 the repaired KiCad project passed native ERC/DRC and gained C6 (15 SMT parts per board). Use `../KiCad/fancontroller/release_12v/README.md` for the revised candidate files. This folder preserves the original 14-part quotes and upload evidence. Its older ERC/DRC and reconstruction descriptions are historical. Do not order these original uploads as the repaired design.
+
 # JLCPCB quote draft
 
 Scope: **5 boards, top-side SMT assembly, 14 components per board**, green solder mask and white silkscreen. P1, J1 and J2 are excluded for hand assembly.

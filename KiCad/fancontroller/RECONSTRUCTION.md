@@ -1,48 +1,36 @@
 # Fan controller KiCad reconstruction
 
-This project was reconstructed from the supplied Gerber, drill, image, and BOM files. It is an editable starting point for design recovery, not a validated replacement for the original CAD source.
+Updated 2026-10-22. This editable KiCad 10 project was recovered from the supplied Gerbers, drill files, BOM and schematic image. The original input files remain unchanged.
 
-## Files
+## Current validation
 
-- `fancontroller.kicad_pro`: KiCad 10 project.
-- `fancontroller.kicad_pcb`: Gerber artwork imported through KiCad GerbView, plus 14 surface-mount footprints recovered from the official KiCad 5.0.0 library and aligned with the supplied F.Paste Gerber.
-- `fancontroller.kicad_sch`: recovered component symbols, values, and part identifiers. All 17 installed component references from the populated BOM are present.
-- `custom_symbols.kicad_sym` and `sym-lib-table`: project-local TS2938CS50 regulator symbol, using the manufacturer's SOP-8 pin assignment.
-- `../../fancontroller_BOM_populated.xlsx`: sourcing workbook with candidates, open matches, off-board connector options, and a placement review sheet.
-- `Recovered2018.pretty` and `fp-lib-table`: project-local legacy land patterns matching the original artwork. See `Recovered2018.pretty/PROVENANCE.md` for sources and license.
-- `../../fancontroller_pick_and_place_DRAFT.csv`: native KiCad position export for the 14 surface-mount parts, explicitly in **millimeters**, with negative Y coordinates. This is not the JLCPCB rotation-corrected CPL.
-- `../../JLCPCB_Quote/`: quote-only original Gerber ZIP, SMT BOM, JLCPCB CPL, native position export, placement audit and validation summary.
+**Native KiCad 10.0.6: ERC 0, DRC 0, unconnected 0, courtyard violations 0.** Schematic/PCB parity is 22 references; 63/63 named pad-net assignments match. Existing project/default ignored checks are listed in the raw reports; this repair did not add exclusions or relax severities.
 
-## Footprint repairs (2026-10-22)
+See `release_12v/README.md` for candidate artifacts and complete limitations. The aggregate MCP project gate is still FAIL: mechanical pinless mounting-hole symbols and a rotation-unaware placement heuristic are flagged. An independent transformed-courtyard audit finds all 22 courtyards present and no overlaps. Native checks and this audit do not validate the actual purchased connector mating envelope or functional performance. The working schematic drawing still has text overlaps.
 
-- Replaced modern land patterns with official KiCad 5.0.0 footprints. All 14 parts now match their original paste-pad centers within 0.0005 mm, including the SOIC row spacing and C2/C3 pads.
-- Recovered C5 orientation from the asymmetric original silkscreen: native KiCad rotation is 315 degrees, correcting the earlier 135-degree draft. REG1 is also 315 degrees. IC1/IC2/IC3 are 0 degrees. The native orientations match the corresponding legacy footprint silkscreen geometry.
-- Fixed the MCP placement/move implementation to rotate absolute pad angles along with footprint orientation. Regression tests pass in the MCP repository, commit `e100c9e`.
-- Native courtyard checking now reports zero violations. Total native DRC findings decreased from 667 to 639. No exclusions or waivers were added.
+## Recovered design
 
-## Current limitations
+- Native, netted copper tracks and vias replace the imported Gerber artwork and pseudo-vias. A native B.Cu GND zone provides the return plane.
+- Project-local `Recovered2018.pretty` footprints derive from official KiCad 5.0.0 land patterns. See its provenance file. C2/C4 use 270°; C5 is 315°; the regulator native angle is -45° (315°).
+- J1 is an official Molex-compatible four-pin fan header; J2 is a generic two-pin 2.54 mm power header; P1 is a generic three-pin header for an external potentiometer. Four 2.2 mm NPTH mounting holes are native mechanical footprints.
+- `custom_symbols.kicad_sym` contains the selected KF50BD-TR symbol with proper pin electrical types. Its inhibit pin is grounded, NC is explicit, input is +12 V, output is +5 V.
+- LM311 balance pins 5/6 are individually unconnected. Other intentional no-connects are preserved. PWR_FLAGs identify the external supply.
+- Native silkscreen includes references, polarity, fan pin labels and **12 V** board identification.
+- Added C6, 100 nF / 25 V regulator input bypass (C2167748), following the KF50 datasheet application guidance.
 
-### Electrical reconstruction in progress (2026-10-22)
+## Sourcing and assembly
 
-The schematic has now been connected using named nets and pin stubs through KiCad MCP. Native KiCad 10.0.6 ERC reports zero findings. The stock-selected KF50BD-TR is represented by a generated project-local symbol with the manufacturer's SO-8 pinout and electrical types; its INHIBIT input is grounded to enable the regulator. The three selected capacitor replacements and regulator sourcing fields are synchronized with the quote BOM.
+The user selected five boards with top-side SMT assembly, stocked substitutions and a 12 V supply. REG1 is KF50BD-TR (20 V maximum input). C1/C4/C5 are the previously approved stocked equivalents. C5 has the previously disclosed 2000 h rather than 5000 h endurance rating at 105°C.
 
-The unused LM311 balance pins 5 and 6 are now explicitly unconnected rather than shorted. TI permits both configurations (LM311 datasheet, offset-balancing example: https://www.ti.com/lit/ds/symlink/lm311.pdf). This change must also be reflected in the recovered PCB routing. No ERC exclusions or severity changes were introduced. PWR_FLAG symbols identify the external 12 V supply and ground at J2. IC1 output/control, IC3 control/discharge, REG1 NC and J1 tach pins are intentionally unconnected, following the supplied circuit and fan interface.
+Current candidate assembly is **15 SMT parts per board in 11 BOM rows**. P1/J1/J2 are hand assembled. `release_12v/BOM.csv` and `release_12v/CPL.csv` supersede the root workbook and root draft position file for this revision. The latter are historical sourcing/recovery records and omit C6/final placement corrections.
 
-PCB reconstruction remains in progress; the older baseline limitations below still describe the board. A clean schematic ERC does not validate that artwork or approve ordering.
+## Files and evidence
 
-- The schematic symbols are not wired. The supplied schematic images need manual net-by-net transcription and electrical review. ERC currently reports 79 findings, largely unconnected pins and undriven inputs.
-- The imported board has no recovered nets. Its 14 surface-mount footprints sit over Gerber artwork, so the 29 imported vias and 808 tracks are not electrically linked to those pads. Plated and non-plated holes, pad geometry, clearances, and stackup need verification against the original Gerbers and drill files.
-- Electrical DRC remains blocked: 639 findings on the artwork reconstruction, including unnetted pad/copper overlaps, imported hole/via artifacts, duplicate silkscreen and default 0.2 mm trace rules applied to original 0.16 mm tracks. These checks cannot certify the original CAD design. See the quote validation summary for exact counts.
-- The JLCPCB CPL applies the MCP SOIC rotation correction (IC1/IC2/IC3: 270 degrees; REG1: 225 degrees). Coordinates remain in the original Gerber frame. Verify all component centers, pin 1 and C5 polarity in JLCPCB's matched-part preview before an order.
-- P1, J1, and the inferred J2 have drill-hole locations but no placed footprints. Their mechanical parts need confirmation. C5's can diameter, regulator suffix, and connector orientation also need physical confirmation.
-- BOM LCSC codes are sourcing leads, not verified JLCPCB assembly selections or live stock commitments. The workbook marks unmatched and out-of-stock lines. J2 is inferred from the board image and requires part selection.
+- `fancontroller.kicad_pro`, `.kicad_sch`, `.kicad_pcb`: authoritative editable project.
+- `custom_symbols.kicad_sym`, `sym-lib-table`, `Recovered2018.pretty`, `fp-lib-table`: project-local libraries.
+- `release_12v/`: candidate Gerber ZIP, drills, 15-part SMT BOM/CPL, plots, source checksums and current validation evidence.
+- `recovery/`: historical copper recovery requests and read-only analysis, including the latest repair logs. Do not replay mutation batches.
+- `../../JLCPCB_Quote/`: historical original-artwork quotes, including USD 59.91 PCB+14-part assembly before shipping/tax, and USD 42.91 estimated five-board+150 mm stencil+shipping before additional tax. These prices have not been refreshed for the repaired design.
+- `../../PASSDOWN.md`: current handoff, exact remaining review steps and runtime details.
 
-## Before ordering assembly
-
-1. Trace the schematic images and Gerber artwork into a fully wired schematic; verify polarity, pin mapping, and the inferred power connector.
-2. Recover or recreate actual pads, holes, copper and nets on the board; compare every layer and drill location to the supplied manufacturing files. Resolve the three unplaced through-hole parts if they will be included in a later assembly scope.
-3. Resolve BOM candidates and footprints, then rerun ERC and DRC. Export fresh Gerbers, drill files, assembly BOM, and position file from the validated project.
-
-The current quote scope is five boards with 14 SMT parts per board. P1, J1 and J2 are excluded for hand assembly. The supplied `Gerber/` directory remains the source of the quote ZIP, including front and back silkscreen files. No replacement fabrication Gerbers were exported from the incomplete reconstruction. A quote does not approve fabrication or resolve the remaining electrical checks.
-
-JLCPCB returned USD 59.91 before shipping and tax on 2026-10-22. All 11 BOM lines are confirmed using four stocked replacements, recorded in `../../JLCPCB_Quote/substitutions.json` and the populated workbook. The user confirmed 12 V operation. The proposed KF50BD-TR regulator is limited to 20 V input; the original 12–28 V silkscreen does not apply to this proposed build. Native CAD component values remain the recovered original design; quote substitutions require electrical review before a revised manufacturing release.
+No revised vendor upload, bench test, simulation or purchase has occurred. Refresh JLCPCB stock, matched-part placement preview and DFM with the new candidate files, save the quotes, and obtain human engineering review before ordering.

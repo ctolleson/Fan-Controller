@@ -1,0 +1,57 @@
+2026-10-22 18:57:19 [info     ] web_dashboard_routes_registered count=17
+[10/22/26 18:57:19] WARNING  Tool already exists:             tool_manager.py:70
+                             sch_annotate                                       
+                    WARNING  Tool already exists:             tool_manager.py:70
+                             sch_annotate                                       
+2026-10-22 18:57:19 [info     ] tool_call_started              argument_keys=['project_dir'] tool=kicad_set_project
+2026-10-22 18:57:19 [info     ] tool_call_finished             error_code=None latency_ms=7.507 status=ok tool=kicad_set_project
+kicad_set_project [["type='text' text='Current project configuration:\\n- Project directory: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller\\n- Project file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pro\\n- Resolved project: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pro\\n- PCB file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb\\n- Schematic file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_sch\\n- Output directory: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/output\\n- KiCad CLI: /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli (found)\\n- Server profile: full\\n- Experimental tools: False' annotations=None meta=None"], {"result": "Current project configuration:\n- Project directory: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller\n- Project file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pro\n- Resolved project: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pro\n- PCB file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb\n- Schematic file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_sch\n- Output directory: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/output\n- KiCad CLI: /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli (found)\n- Server profile: full\n- Experimental tools: False"}]
+2026-10-22 18:57:19 [info     ] tool_call_started              argument_keys=['item_ids'] tool=pcb_delete_items
+2026-10-22 18:57:19 [debug    ] kicad_connect                  attempt=1 kwargs=['socket_path', 'client_name', 'timeout_ms'] max_attempts=3
+2026-10-22 18:57:19 [info     ] tool_call_finished             error_code=None latency_ms=82.081 status=ok tool=pcb_delete_items
+pcb_delete_items [["type='text' text='Failed to delete items: pcb_delete_items completed but live postcondition verification could not complete.' annotations=None meta=None"], {"result": "Failed to delete items: pcb_delete_items completed but live postcondition verification could not complete."}]
+2026-10-22 18:57:19 [info     ] tool_call_started              argument_keys=[] tool=pcb_save
+2026-10-22 18:57:19 [info     ] tool_call_finished             error_code=None latency_ms=12.262 status=ok tool=pcb_save
+pcb_save [["type='text' text='Board saved.' annotations=None meta=None"], {"result": "Board saved."}]
+2026-10-22 18:57:19 [info     ] tool_call_started              argument_keys=['footprint', 'library', 'reference', 'rotation_deg', 'value', 'x_mm', 'y_mm'] tool=pcb_place_footprint
+2026-10-22 18:57:19 [info     ] tool_call_finished             error_code=None latency_ms=220.085 status=ok tool=pcb_place_footprint
+pcb_place_footprint [["type='text' text='# Place footprint\\n\\nBoard updated: `/Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb`\\n\\n- 2 pads, none connected to a net yet: 2\\n- placed Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder as C6 at (96, 141.4) on the front: 1\\n- **total items affected: 3**' annotations=None meta=None"], {"result": "# Place footprint\n\nBoard updated: `/Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb`\n\n- 2 pads, none connected to a net yet: 2\n- placed Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder as C6 at (96, 141.4) on the front: 1\n- **total items affected: 3**"}]
+2026-10-22 18:57:19 [info     ] tool_call_started              argument_keys=['dry_run', 'update_values'] tool=pcb_update_from_schematic
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=208.51 status=ok tool=pcb_update_from_schematic
+pcb_update_from_schematic [["type='text' text='# Update PCB from schematic\\n\\nBoard updated: `/Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb`\\n\\n- 2 pad net assignment(s)\\n\\nRun run_drc() to confirm the board is still clean.' annotations=None meta=None"], {"result": "# Update PCB from schematic\n\nBoard updated: `/Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb`\n\n- 2 pad net assignment(s)\n\nRun run_drc() to confirm the board is still clean."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=[] tool=pcb_revert
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=254.78 status=ok tool=pcb_revert
+pcb_revert [["type='text' text='Board reverted to last saved state. All unsaved changes have been discarded.' annotations=None meta=None"], {"result": "Board reverted to last saved state. All unsaved changes have been discarded."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=['tracks'] tool=pcb_add_tracks_bulk
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=26.019 status=ok tool=pcb_add_tracks_bulk
+pcb_add_tracks_bulk [["type='text' text='Added 2 tracks.' annotations=None meta=None"], {"result": "Added 2 tracks."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=['diameter_mm', 'drill_mm', 'net_name', 'x_mm', 'y_mm'] tool=pcb_add_via
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=79.75 status=ok tool=pcb_add_via
+pcb_add_via [["type='text' text='Via added successfully.' annotations=None meta=None"], {"result": "Via added successfully."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=10.957 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=48.252 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=46.813 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=44.987 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=35.408 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=48.479 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:57:20 [info     ] tool_call_finished             error_code=None latency_ms=50.625 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:57:20 [info     ] tool_call_started              argument_keys=[] tool=pcb_refill_zones
+2026-10-22 18:57:21 [info     ] tool_call_finished             error_code=None latency_ms=552.165 status=ok tool=pcb_refill_zones
+pcb_refill_zones [["type='text' text='Zones refilled.' annotations=None meta=None"], {"result": "Zones refilled."}]
+2026-10-22 18:57:21 [info     ] tool_call_started              argument_keys=[] tool=pcb_save
+2026-10-22 18:57:21 [info     ] tool_call_finished             error_code=None latency_ms=19.171 status=ok tool=pcb_save
+pcb_save [["type='text' text='Board saved.' annotations=None meta=None"], {"result": "Board saved."}]

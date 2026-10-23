@@ -1,0 +1,1 @@
+[{"tool": "dfm_run_manufacturer_check"}, {"tool": "check_design_for_manufacture", "args": {"jlcpcb": true}}, {"tool": "pcb_get_stackup"}, {"tool": "pcb_get_design_rules"}]

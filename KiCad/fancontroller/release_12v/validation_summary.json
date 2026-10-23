@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-22",
+  "status": "DRAFT_FOR_VENDOR_AND_HUMAN_REVIEW",
+  "native_kicad_version": "10.0.6",
+  "erc_findings": 0,
+  "drc_findings": 0,
+  "unconnected_items": 0,
+  "courtyard_violations": 0,
+  "named_pad_net_matches": 63,
+  "named_pad_net_expected": 63,
+  "schematic_pcb_reference_count": 22,
+  "smt_parts_per_board": 15,
+  "assembly_boards": 5,
+  "smt_bom_rows": 11,
+  "supply": "12 V",
+  "copper_layers": 2,
+  "board_thickness_mm": 1.6,
+  "minimum_track_width_mm": 0.16,
+  "minimum_via_drill_mm": 0.399,
+  "overall_mcp_project_gate": "FAIL",
+  "remaining_gate_findings": [
+    "Pinless mounting holes H1-H4 treated as isolated electrical symbols.",
+    "Placement checker uses unrotated dimensions centered on footprint origins. Transformed geometry review finds no courtyard overlaps; J2 courtyard extends 0.006 mm beyond outline, while copper passes native edge clearance.",
+    "Schematic cosmetics advisory: score 32/100; exported schematic remains a working drawing with text overlaps.",
+    "DFM generic manual review warning."
+  ],
+  "checks_policy": "No exclusions or severity settings added or relaxed in this repair. Reports include the existing project/default ignored-check lists.",
+  "dfm_tool_limitations": [
+    "Live DFM reports 3 copper layers, but board declares only F.Cu and B.Cu. Stackup helper also incorrectly totals surface layers; actual board general thickness is 1.6 mm.",
+    "Headless gate cannot read live track/drill dimensions; live DFM evidence is in recovery/final_drc_repair/fan-release-validate.log."
+  ],
+  "quote_status": "Historical saved JLCPCB quotes use original artwork and 14 SMT parts; revised files have not been uploaded or priced.",
+  "review_required": [
+    "Refresh stock and match all 11 BOM rows.",
+    "Inspect JLCPCB placement preview, especially C5 polarity and SOIC pin 1.",
+    "Review actual hand-assembled J1/J2/P1 parts and connector mating clearance.",
+    "Vendor DFM and human approval before ordering."
+  ],
+  "functional_validation": "No bench test or simulation completed.",
+  "order_placed": false
+}

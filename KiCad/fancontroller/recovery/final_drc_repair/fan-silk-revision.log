@@ -1,0 +1,81 @@
+2026-10-22 18:55:03 [info     ] web_dashboard_routes_registered count=17
+[10/22/26 18:55:03] WARNING  Tool already exists:             tool_manager.py:70
+                             sch_annotate                                       
+                    WARNING  Tool already exists:             tool_manager.py:70
+                             sch_annotate                                       
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['project_dir'] tool=kicad_set_project
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=11.87 status=ok tool=kicad_set_project
+kicad_set_project [["type='text' text='Current project configuration:\\n- Project directory: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller\\n- Project file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pro\\n- Resolved project: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pro\\n- PCB file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb\\n- Schematic file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_sch\\n- Output directory: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/output\\n- KiCad CLI: /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli (found)\\n- Server profile: full\\n- Experimental tools: False' annotations=None meta=None"], {"result": "Current project configuration:\n- Project directory: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller\n- Project file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pro\n- Resolved project: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pro\n- PCB file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb\n- Schematic file: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_sch\n- Output directory: /Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/output\n- KiCad CLI: /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli (found)\n- Server profile: full\n- Experimental tools: False"}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['dry_run', 'item_types', 'layers'] tool=pcb_global_delete
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=12.477 status=ok tool=pcb_global_delete
+pcb_global_delete [["type='text' text='# Global deletions\\n\\n**Dry run** \u2014 nothing was written to `/Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb`.\\n\\n- text: 20\\n- **total items affected: 20**' annotations=None meta=None"], {"result": "# Global deletions\n\n**Dry run** \u2014 nothing was written to `/Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb`.\n\n- text: 20\n- **total items affected: 20**"}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['dry_run', 'item_types', 'layers'] tool=pcb_global_delete
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=208.718 status=ok tool=pcb_global_delete
+pcb_global_delete [["type='text' text='# Global deletions\\n\\nBoard updated: `/Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb`\\n\\n- text: 20\\n- **total items affected: 20**' annotations=None meta=None"], {"result": "# Global deletions\n\nBoard updated: `/Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_pcb`\n\n- text: 20\n- **total items affected: 20**"}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=[] tool=pcb_revert
+2026-10-22 18:55:04 [debug    ] kicad_connect                  attempt=1 kwargs=['socket_path', 'client_name', 'timeout_ms'] max_attempts=3
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=173.759 status=ok tool=pcb_revert
+pcb_revert [["type='text' text='Board reverted to last saved state. All unsaved changes have been discarded.' annotations=None meta=None"], {"result": "Board reverted to last saved state. All unsaved changes have been discarded."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=24.71 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=48.225 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=40.316 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=16.783 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=44.384 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=32.421 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=36.622 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=28.334 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=21.758 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=30.938 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=28.523 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=29.821 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=32.296 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=28.788 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=33.147 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:04 [info     ] tool_call_finished             error_code=None latency_ms=34.834 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:04 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:05 [info     ] tool_call_finished             error_code=None latency_ms=27.803 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:05 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:05 [info     ] tool_call_finished             error_code=None latency_ms=33.171 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:05 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:05 [info     ] tool_call_finished             error_code=None latency_ms=30.881 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:05 [info     ] tool_call_started              argument_keys=['bold', 'rotation_deg', 'size_mm', 'text', 'x_mm', 'y_mm'] tool=pcb_add_text
+2026-10-22 18:55:05 [info     ] tool_call_finished             error_code=None latency_ms=29.746 status=ok tool=pcb_add_text
+pcb_add_text [["type='text' text='Board text added successfully.' annotations=None meta=None"], {"result": "Board text added successfully."}]
+2026-10-22 18:55:05 [info     ] tool_call_started              argument_keys=[] tool=pcb_save
+2026-10-22 18:55:05 [info     ] tool_call_finished             error_code=None latency_ms=34.759 status=ok tool=pcb_save
+pcb_save [["type='text' text='Board saved.' annotations=None meta=None"], {"result": "Board saved."}]

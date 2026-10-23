@@ -1,0 +1,2389 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/ctolleson/Documents/Claude/PWM_Fan_Controller/KiCad/fancontroller/fancontroller.kicad_sch")
+		(date "2026-10-22T19:01:25")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "fancontroller.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "560pF")
+			(footprint "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "CC1206JRNPO9BN561")
+				(field
+					(name "LCSC") "C577166")
+				(field
+					(name "Footprint") "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CC1206JRNPO9BN561")
+			)
+			(property
+				(name "LCSC")
+				(value "C577166")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "98dbbb48-658a-47cf-aa80-2d19ba7600ae")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "C0603C104K3RALTU")
+				(field
+					(name "LCSC") "C2167748")
+				(field
+					(name "Footprint") "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C0603C104K3RALTU")
+			)
+			(property
+				(name "LCSC")
+				(value "C2167748")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00b59277-4e42-46b3-925d-061603a7ea9f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100nF")
+			(footprint "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "C0603C104K3RALTU")
+				(field
+					(name "LCSC") "C2167748")
+				(field
+					(name "Footprint") "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C0603C104K3RALTU")
+			)
+			(property
+				(name "LCSC")
+				(value "C2167748")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d2ba46c6-58ff-4bda-bfed-7c6441b4405d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100pF")
+			(footprint "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "CC1206JRNPOBBN101")
+				(field
+					(name "LCSC") "C113888")
+				(field
+					(name "Footprint") "Recovered2018:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CC1206JRNPOBBN101")
+			)
+			(property
+				(name "LCSC")
+				(value "C113888")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5644a8b9-2b5d-420b-82e1-96f1045aa701")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "47uF 35V")
+			(footprint "Recovered2018:CP_Elec_6.3x5.8")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "EEEFK1V470AP")
+				(field
+					(name "LCSC") "C336786")
+				(field
+					(name "Footprint") "Recovered2018:CP_Elec_6.3x5.8")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "EEEFK1V470AP")
+			)
+			(property
+				(name "LCSC")
+				(value "C336786")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9d31a4a3-9070-4fb4-8442-2b6ad35a8130")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100nF")
+			(footprint "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "C0603C104K3RALTU")
+				(field
+					(name "LCSC") "C2167748")
+				(field
+					(name "Footprint") "Recovered2018:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C0603C104K3RALTU")
+			)
+			(property
+				(name "LCSC")
+				(value "C2167748")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca53ee43-7e41-4ccf-8cbc-de9c82b7289e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "M2 mounting hole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "155962bb-9f6f-4b41-b7c4-748bc7148fe2")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "M2 mounting hole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ea38887f-a034-40a4-9b96-929191dc5f1a")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "M2 mounting hole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e9b4dd72-843d-4e06-af68-97b86ba420e5")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "M2 mounting hole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bd693df3-26aa-4807-a966-e6ff8acd6163")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "IC1")
+			(value "NE555DR")
+			(footprint "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "NE555DR")
+				(field
+					(name "LCSC") "C7593")
+				(field
+					(name "Footprint") "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Timer")
+				(part "NE555D")
+				(description "Precision Timers, 555 compatible, SOIC-8")
+			)
+			(property
+				(name "MPN")
+				(value "NE555DR")
+			)
+			(property
+				(name "LCSC")
+				(value "C7593")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single timer 555")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ebcae8a5-5fc8-4cdb-9170-a4a4bac0612c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "IC2")
+			(value "LM311DR")
+			(footprint "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "LM311DR")
+				(field
+					(name "LCSC") "C12597")
+				(field
+					(name "Footprint") "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Comparator")
+				(part "LM311")
+				(description "Voltage Comparator, DIP-8/SOIC-8")
+			)
+			(property
+				(name "MPN")
+				(value "LM311DR")
+			)
+			(property
+				(name "LCSC")
+				(value "C12597")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cmp open collector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "db3b5138-505f-47af-b986-4a535d4958be")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "IC3")
+			(value "NE555DR")
+			(footprint "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "NE555DR")
+				(field
+					(name "LCSC") "C7593")
+				(field
+					(name "Footprint") "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Timer")
+				(part "NE555D")
+				(description "Precision Timers, 555 compatible, SOIC-8")
+			)
+			(property
+				(name "MPN")
+				(value "NE555DR")
+			)
+			(property
+				(name "LCSC")
+				(value "C7593")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single timer 555")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "525a3915-bd0d-45a8-ac90-d029f98a4b1a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Fan 4-pin")
+			(footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "0470531000")
+				(field
+					(name "Footprint") "Connector:FanPinHeader_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "0470531000")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca6d58c3-7a65-4823-91da-3cdd22475c43")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Power input")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab6a277b-2004-482c-967c-cf4b94b19f4e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P1")
+			(value "10k")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "PDF241-S425F-103B0")
+				(field
+					(name "LCSC") "C6626952")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Potentiometer")
+				(description "Potentiometer")
+			)
+			(property
+				(name "MPN")
+				(value "PDF241-S425F-103B0")
+			)
+			(property
+				(name "LCSC")
+				(value "C6626952")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resistor variable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Potentiometer*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4e6117c1-5e64-4f9d-b511-d6f57fc69816")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10k")
+			(footprint "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "RC1206FR-0710KL")
+				(field
+					(name "LCSC") "C132649")
+				(field
+					(name "Footprint") "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC1206FR-0710KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C132649")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "015cae18-635c-4105-886c-4dc68c2a445d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "47k")
+			(footprint "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "RC1206FR-0747KL")
+				(field
+					(name "LCSC") "C137270")
+				(field
+					(name "Footprint") "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC1206FR-0747KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C137270")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "75f7ef5a-d000-43a9-8fb8-10a48fa64158")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "9.1k")
+			(footprint "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "RC1206FR-079K1L")
+				(field
+					(name "Footprint") "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC1206FR-079K1L")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "34daf088-ac39-43b0-8add-ee0ab8113d50")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "9.1k")
+			(footprint "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "RC1206FR-079K1L")
+				(field
+					(name "Footprint") "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC1206FR-079K1L")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bf161236-1f86-44d8-8018-32a99f917812")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "1k")
+			(footprint "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "RC1206FR-071KL")
+				(field
+					(name "LCSC") "C131398")
+				(field
+					(name "Footprint") "Recovered2018:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC1206FR-071KL")
+			)
+			(property
+				(name "LCSC")
+				(value "C131398")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "028a9b17-f584-4dca-8c1e-b4dd277e321f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "REG1")
+			(value "KF50BD-TR")
+			(footprint "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "KF50BD-TR")
+				(field
+					(name "LCSC") "C222151")
+				(field
+					(name "Footprint") "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "custom_symbols")
+				(part "KF50BD_TR")
+				(description "ST KF50BD-TR: 5 V 500 mA SO-8 regulator, 20 V maximum input; INHIBIT low enables")
+			)
+			(property
+				(name "MPN")
+				(value "KF50BD-TR")
+			)
+			(property
+				(name "LCSC")
+				(value "C222151")
+			)
+			(property
+				(name "Sheetname")
+				(value "fancontroller")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fancontroller.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6a288c9a-bf71-4e97-8675-447a1e2d33bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Comparator")
+			(part "LM311")
+			(description "Voltage Comparator, DIP-8/SOIC-8")
+			(docs "https://www.st.com/resource/en/datasheet/lm311.pdf")
+			(footprints
+				(fp "SOIC*3.9x4.9mm*P1.27mm*")
+				(fp "DIP*W7.62mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "LM311")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/lm311.pdf")
+				(field
+					(name "Description") "Voltage Comparator, DIP-8/SOIC-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "+")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "BAL")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "STRB")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "")
+					(type "open_collector")
+				)
+				(pin
+					(num "8")
+					(name "V+")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x02")
+			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x04")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R_Potentiometer")
+			(description "Potentiometer")
+			(footprints
+				(fp "Potentiometer*")
+			)
+			(fields
+				(field
+					(name "Reference") "RV")
+				(field
+					(name "Value") "R_Potentiometer")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Potentiometer")
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Type") "POT")
+				(field
+					(name "Sim.Pins") "1=r0 2=wiper 3=r1")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "Timer")
+			(part "NE555D")
+			(description "Precision Timers, 555 compatible, SOIC-8")
+			(docs "http://www.ti.com/lit/ds/symlink/ne555.pdf")
+			(footprints
+				(fp "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "NE555D")
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ne555.pdf")
+				(field
+					(name "Description") "Precision Timers, 555 compatible, SOIC-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "TRIG")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "~{RST}")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "CONT")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "THRES")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "DISCH")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "custom_symbols")
+			(part "KF50BD_TR")
+			(description "ST KF50BD-TR: 5 V 500 mA SO-8 regulator, 20 V maximum input; INHIBIT low enables")
+			(docs "https://www.st.com/resource/en/datasheet/kfxx.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "KF50BD_TR")
+				(field
+					(name "Footprint") "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/kfxx.pdf")
+				(field
+					(name "Description") "ST KF50BD-TR: 5 V 500 mA SO-8 regulator, 20 V maximum input; INHIBIT low enables")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VOUT")
+					(type "power_out")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "INHIBIT")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "VIN")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Comparator")
+			(uri "${KICAD10_SYMBOL_DIR}/Comparator.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+		(library
+			(logical "Timer")
+			(uri "${KICAD10_SYMBOL_DIR}/Timer.kicad_sym")
+		)
+		(library
+			(logical "custom_symbols")
+			(uri "${KIPRJMOD}/custom_symbols.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "4")
+				(pinfunction "~{RST}_4")
+				(pintype "input")
+			)
+			(node
+				(ref "IC1")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "IC2")
+				(pin "8")
+				(pinfunction "V+_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "IC3")
+				(pin "4")
+				(pinfunction "~{RST}_4")
+				(pintype "input")
+			)
+			(node
+				(ref "IC3")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "REG1")
+				(pin "1")
+				(pinfunction "VOUT_1")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "+12V")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "REG1")
+				(pin "8")
+				(pinfunction "VIN_8")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "COMPARATOR")
+			(class "Default")
+			(node
+				(ref "IC2")
+				(pin "7")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "IC3")
+				(pin "2")
+				(pinfunction "TRIG_2")
+				(pintype "input")
+			)
+			(node
+				(ref "IC3")
+				(pin "6")
+				(pinfunction "THRES_6")
+				(pintype "input")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "DISCHARGE")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "7")
+				(pinfunction "DISCH_7")
+				(pintype "input")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "DUTY_REF")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "input")
+			)
+			(node
+				(ref "P1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "IC2")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "IC3")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "REG1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "REG1")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "REG1")
+				(pin "5")
+				(pinfunction "INHIBIT_5")
+				(pintype "input")
+			)
+			(node
+				(ref "REG1")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "REG1")
+				(pin "7")
+				(pinfunction "GND_7")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "7")
+			(name "POT_HIGH")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "POT_LOW")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "PWM_OUT")
+			(class "Default")
+			(node
+				(ref "IC3")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "output")
+			)
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "RAMP")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "2")
+				(pinfunction "TRIG_2")
+				(pintype "input")
+			)
+			(node
+				(ref "IC1")
+				(pin "6")
+				(pinfunction "THRES_6")
+				(pintype "input")
+			)
+			(node
+				(ref "IC2")
+				(pin "3")
+				(pinfunction "-_3")
+				(pintype "input")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "unconnected-(IC1-CONT-Pad5)")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "5")
+				(pinfunction "CONT_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "12")
+			(name "unconnected-(IC1-OUT-Pad3)")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(IC2-BAL-Pad5)")
+			(class "Default")
+			(node
+				(ref "IC2")
+				(pin "5")
+				(pinfunction "BAL_5")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(IC2-STRB-Pad6)")
+			(class "Default")
+			(node
+				(ref "IC2")
+				(pin "6")
+				(pinfunction "STRB_6")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "15")
+			(name "unconnected-(IC3-CONT-Pad5)")
+			(class "Default")
+			(node
+				(ref "IC3")
+				(pin "5")
+				(pinfunction "CONT_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "16")
+			(name "unconnected-(IC3-DISCH-Pad7)")
+			(class "Default")
+			(node
+				(ref "IC3")
+				(pin "7")
+				(pinfunction "DISCH_7")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(J1-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(REG1-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "REG1")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

@@ -1,0 +1,36 @@
+{
+  "bom_rows": 11,
+  "smt_parts_per_board": 15,
+  "bom_cpl_refs_match": true,
+  "units": "mm",
+  "coordinates": "original absolute Gerber frame; KiCad negative Y",
+  "rotations_degrees": {
+    "C1": 0.0,
+    "C2": 270.0,
+    "C3": 90.0,
+    "C4": 270.0,
+    "C5": 315.0,
+    "C6": 0.0,
+    "IC1": 270.0,
+    "IC2": 270.0,
+    "IC3": 270.0,
+    "R1": 0.0,
+    "R2": 0.0,
+    "R3": 0.0,
+    "R4": 0.0,
+    "R5": 0.0,
+    "REG1": 225.0
+  },
+  "excluded_hand_assembly": [
+    "P1",
+    "J1",
+    "J2"
+  ],
+  "mechanical_only": [
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+  ],
+  "vendor_preview_review_required": true
+}

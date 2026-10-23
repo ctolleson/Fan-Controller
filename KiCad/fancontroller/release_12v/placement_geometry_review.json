@@ -1,0 +1,26 @@
+{
+  "method": "Read-only project footprint courtyard polygons, transformed using actual rotation and origin; board outline is rectangular.",
+  "board_bounds_mm": [
+    77.47,
+    138.43,
+    103.124,
+    175.26
+  ],
+  "courtyards_checked": 22,
+  "missing_courtyards": [],
+  "overlapping_courtyards": [],
+  "courtyard_area_outside_board_mm2": {
+    "J2": 0.0070800000000338465
+  },
+  "flagged_pair_courtyard_gap_mm": {
+    "C2/IC2": 0.366,
+    "C2/J1": 0.665327,
+    "C3/IC3": 0.366,
+    "C4/H4": 0.494,
+    "C5/REG1": 0.431169,
+    "IC1/J2": 0.966,
+    "IC3/P1": 0.61,
+    "J1/J2": 0.036
+  },
+  "limits": "Checks library courtyard geometry, not actual purchased connector bodies, mating cables, screw heads, or 3D component models. Does not waive or change MCP gate findings."
+}

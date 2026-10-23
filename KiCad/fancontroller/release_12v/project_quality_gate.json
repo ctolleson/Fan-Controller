@@ -1,0 +1,501 @@
+{
+  "schema_version": "verdict.v1",
+  "text": "Project quality gate: FAIL\n\n- Blocking issues remain. Do not treat this design as production-ready yet.\n\nWARN: Design intent not set - placement scoring will use defaults.\n\nSchematic quality gate: PASS\n- ERC is clean.\n- ERC violations: 0\n- Symbols: 22\n- Power symbols: 36\n- Wires: 55\n- Labels: 21\n- Connectivity groups: 17\n- Unnamed single-pin groups: 8\n\nSchematic connectivity quality gate: FAIL\n- Connectivity smells suggest the schematic is not ready for PCB or release work.\n- Pages analysed: 1\n- Top level: 58 symbol(s), 21 label(s), 55 wire(s)\n- Dangling label groups: 0\n- Zero-wire pages: 0\n- Unnamed single-pin groups: 0\n- Isolated footprint symbols: 4\n- Hierarchy contract mismatches: 0\n- Matched component contracts: 0\n- Component contract violations: 0\n- FAIL: Top level: H1 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.\n- FAIL: Top level: H2 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.\n- FAIL: Top level: H3 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.\n- FAIL: Top level: H4 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.\n\nPre-sync quality gate: FAIL\n- Schematic checks must pass before PCB sync to avoid transferring a stale or broken netlist.\n- Schematic connectivity quality gate: FAIL\n- Connectivity smells suggest the schematic is not ready for PCB or release work.\n- Pages analysed: 1\n- Top level: 58 symbol(s), 21 label(s), 55 wire(s)\n- Dangling label groups: 0\n- Zero-wire pages: 0\n- Unnamed single-pin groups: 0\n- Isolated footprint symbols: 4\n\nSchematic cosmetics quality gate: WARN\n- Cosmetic score 32/100 on fancontroller.kicad_sch (worst category: readability). Advisory — does not block release.\n- fancontroller.kicad_sch: score 32 (worst: readability)\n\nPCB quality gate: PASS\n- PCB passes DRC, unconnected, and courtyard checks.\n- DRC violations: 0\n- Unconnected items: 0\n- Courtyard issues: 0\n\nPlacement quality gate: FAIL\n- Footprint placement still violates hard physical or intent-aware checks.\n- Footprints analysed: 22\n- Board frame: 25.65 x 36.83 mm\n- Density: 57.68%\n- Connector checks: 3\n- Decoupling pair checks: 0\n- RF keepout checks: 0\n- Power-tree refs checked: 3\n- Analog refs checked: 0\n- Digital refs checked: 0\n- Sensor-cluster refs checked: 0\n- Critical-net Manhattan proxy: 0.00 mm\n- Critical-net proxy density: 0.00 mm per 1000 mm^2\n- Thermal hotspot refs checked: 0\n- Thermal hotspot proximity: 0.0000\n- Placement score: 15/100\n- FAIL: Overlap refs: C2/IC2, C2/J1, C3/IC3, C4/H4, C5/REG1, IC1/J2, IC3/P1, J1/J2\n- FAIL: Outside-board refs: J1, P1\n- WARN: Placement spans most of the board; clustering looks weak.\n\nPCB transfer quality gate: PASS\n- Named schematic pad nets match the PCB footprint pads.\n- Expected named pad nets: 63\n- Matched pad nets on PCB: 63\n- Transfer coverage: 100.0%\n- Missing footprint refs on PCB: 0\n- Pad-net mismatches: 0\n\nManufacturing quality gate: PASS\n- DFM checks passed.\n- Profile: JLCPCB / standard\n- WARN: Copper layer count unavailable without an active board.\n- WARN: Minimum track width unavailable without an active board.\n- WARN: Minimum via drill unavailable without an active board.\n- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.\n\nFootprint parity quality gate: PASS\n- PCB and schematic references are aligned.\n- Schematic files scanned: 1\n- Schematic refs with footprints: 22\n- PCB footprint refs (file): 22\n- Missing on board: 0\n- Missing in schematic: 0",
+  "summary": "Blocking issues remain. Do not treat this design as production-ready yet.",
+  "verdict": "FAIL",
+  "severity": "error",
+  "failure_mode": "design",
+  "retryable": false,
+  "evidence": [
+    {
+      "gate": "Schematic connectivity",
+      "status": "FAIL",
+      "detail": "FAIL: Top level: H1 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity."
+    },
+    {
+      "gate": "Schematic connectivity",
+      "status": "FAIL",
+      "detail": "FAIL: Top level: H2 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity."
+    },
+    {
+      "gate": "Schematic connectivity",
+      "status": "FAIL",
+      "detail": "FAIL: Top level: H3 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity."
+    },
+    {
+      "gate": "Schematic connectivity",
+      "status": "FAIL",
+      "detail": "FAIL: Top level: H4 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity."
+    },
+    {
+      "gate": "Pre-sync",
+      "status": "FAIL",
+      "detail": "Schematic checks must pass before PCB sync to avoid transferring a stale or broken netlist."
+    },
+    {
+      "gate": "Schematic cosmetics",
+      "status": "WARN",
+      "detail": "Cosmetic score 32/100 on fancontroller.kicad_sch (worst category: readability). Advisory — does not block release."
+    },
+    {
+      "gate": "Placement",
+      "status": "FAIL",
+      "detail": "FAIL: Overlap refs: C2/IC2, C2/J1, C3/IC3, C4/H4, C5/REG1, IC1/J2, IC3/P1, J1/J2"
+    },
+    {
+      "gate": "Placement",
+      "status": "FAIL",
+      "detail": "FAIL: Outside-board refs: J1, P1"
+    },
+    {
+      "gate": "Placement",
+      "status": "FAIL",
+      "detail": "WARN: Placement spans most of the board; clustering looks weak."
+    },
+    {
+      "gate": "Manufacturing",
+      "status": "PASS",
+      "detail": "WARN: Copper layer count unavailable without an active board."
+    },
+    {
+      "gate": "Manufacturing",
+      "status": "PASS",
+      "detail": "WARN: Minimum track width unavailable without an active board."
+    },
+    {
+      "gate": "Manufacturing",
+      "status": "PASS",
+      "detail": "WARN: Minimum via drill unavailable without an active board."
+    },
+    {
+      "gate": "Manufacturing",
+      "status": "PASS",
+      "detail": "WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+    }
+  ],
+  "remediation": "Run sch_add_missing_junctions and re-run this gate.",
+  "findings": [
+    {
+      "id": "b1593000fe08",
+      "severity": "error",
+      "location": "Schematic connectivity",
+      "description": "Top level: H1 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.",
+      "evidence": [
+        {
+          "gate": "Schematic connectivity",
+          "status": "FAIL",
+          "detail": "FAIL: Top level: H1 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity."
+        }
+      ],
+      "remediation": "Run sch_add_missing_junctions and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "sch_add_missing_junctions",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "7133c1560a32",
+      "severity": "error",
+      "location": "Schematic connectivity",
+      "description": "Top level: H2 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.",
+      "evidence": [
+        {
+          "gate": "Schematic connectivity",
+          "status": "FAIL",
+          "detail": "FAIL: Top level: H2 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity."
+        }
+      ],
+      "remediation": "Run sch_add_missing_junctions and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "sch_add_missing_junctions",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "32a6dbe5cab8",
+      "severity": "error",
+      "location": "Schematic connectivity",
+      "description": "Top level: H3 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.",
+      "evidence": [
+        {
+          "gate": "Schematic connectivity",
+          "status": "FAIL",
+          "detail": "FAIL: Top level: H3 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity."
+        }
+      ],
+      "remediation": "Run sch_add_missing_junctions and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "sch_add_missing_junctions",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "4810d23b41c5",
+      "severity": "error",
+      "location": "Schematic connectivity",
+      "description": "Top level: H4 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.",
+      "evidence": [
+        {
+          "gate": "Schematic connectivity",
+          "status": "FAIL",
+          "detail": "FAIL: Top level: H4 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity."
+        }
+      ],
+      "remediation": "Run sch_add_missing_junctions and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "sch_add_missing_junctions",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "16c6b435706e",
+      "severity": "error",
+      "location": "Pre-sync",
+      "description": "Schematic checks must pass before PCB sync to avoid transferring a stale or broken netlist.",
+      "evidence": [
+        {
+          "gate": "Pre-sync",
+          "status": "FAIL",
+          "detail": "Schematic checks must pass before PCB sync to avoid transferring a stale or broken netlist."
+        }
+      ],
+      "remediation": "Run sch_add_missing_junctions and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "sch_add_missing_junctions",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "90a744ff166f",
+      "severity": "error",
+      "location": "Schematic cosmetics",
+      "description": "Cosmetic score 32/100 on fancontroller.kicad_sch (worst category: readability). Advisory — does not block release.",
+      "evidence": [
+        {
+          "gate": "Schematic cosmetics",
+          "status": "WARN",
+          "detail": "Cosmetic score 32/100 on fancontroller.kicad_sch (worst category: readability). Advisory — does not block release."
+        }
+      ],
+      "remediation": "Run sch_cosmetic_score and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "sch_cosmetic_score",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "7ed7c14601dc",
+      "severity": "error",
+      "location": "Placement",
+      "description": "Overlap refs: C2/IC2, C2/J1, C3/IC3, C4/H4, C5/REG1, IC1/J2, IC3/P1, J1/J2",
+      "evidence": [
+        {
+          "gate": "Placement",
+          "status": "FAIL",
+          "detail": "FAIL: Overlap refs: C2/IC2, C2/J1, C3/IC3, C4/H4, C5/REG1, IC1/J2, IC3/P1, J1/J2"
+        }
+      ],
+      "remediation": "Run pcb_place_decoupling_caps and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "pcb_place_decoupling_caps",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "e1a57cf7fd96",
+      "severity": "error",
+      "location": "Placement",
+      "description": "Outside-board refs: J1, P1",
+      "evidence": [
+        {
+          "gate": "Placement",
+          "status": "FAIL",
+          "detail": "FAIL: Outside-board refs: J1, P1"
+        }
+      ],
+      "remediation": "Run pcb_place_decoupling_caps and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "pcb_place_decoupling_caps",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "7090eaa61b39",
+      "severity": "warning",
+      "location": "Placement",
+      "description": "Placement spans most of the board; clustering looks weak.",
+      "evidence": [
+        {
+          "gate": "Placement",
+          "status": "FAIL",
+          "detail": "WARN: Placement spans most of the board; clustering looks weak."
+        }
+      ],
+      "remediation": "Run pcb_place_decoupling_caps and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "pcb_place_decoupling_caps",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "0244470ae63b",
+      "severity": "warning",
+      "location": "Manufacturing",
+      "description": "Copper layer count unavailable without an active board.",
+      "evidence": [
+        {
+          "gate": "Manufacturing",
+          "status": "PASS",
+          "detail": "WARN: Copper layer count unavailable without an active board."
+        }
+      ],
+      "remediation": "Run dfm_run_manufacturer_check and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "dfm_run_manufacturer_check",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "3b4e8b95ba34",
+      "severity": "warning",
+      "location": "Manufacturing",
+      "description": "Minimum track width unavailable without an active board.",
+      "evidence": [
+        {
+          "gate": "Manufacturing",
+          "status": "PASS",
+          "detail": "WARN: Minimum track width unavailable without an active board."
+        }
+      ],
+      "remediation": "Run dfm_run_manufacturer_check and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "dfm_run_manufacturer_check",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "53beed6ff8ff",
+      "severity": "warning",
+      "location": "Manufacturing",
+      "description": "Minimum via drill unavailable without an active board.",
+      "evidence": [
+        {
+          "gate": "Manufacturing",
+          "status": "PASS",
+          "detail": "WARN: Minimum via drill unavailable without an active board."
+        }
+      ],
+      "remediation": "Run dfm_run_manufacturer_check and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "dfm_run_manufacturer_check",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "5df5795834c2",
+      "severity": "warning",
+      "location": "Manufacturing",
+      "description": "Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.",
+      "evidence": [
+        {
+          "gate": "Manufacturing",
+          "status": "PASS",
+          "detail": "WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+        }
+      ],
+      "remediation": "Run dfm_run_manufacturer_check and re-run this gate.",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "dfm_run_manufacturer_check",
+        "args": {}
+      },
+      "metadata": {}
+    },
+    {
+      "id": "f08bf4ecf09a",
+      "severity": "warning",
+      "location": "Project design intent",
+      "description": "Design intent is not set; placement scoring will use defaults.",
+      "evidence": [],
+      "remediation": "",
+      "retryable": false,
+      "failure_mode": "design",
+      "suggested_fix": {
+        "tool": "project_set_design_intent",
+        "args": {}
+      },
+      "metadata": {}
+    }
+  ],
+  "next_action": "Call sch_add_missing_junctions and re-run project_quality_gate().",
+  "metadata": {
+    "status": "FAIL",
+    "outcomes": [
+      {
+        "name": "Schematic",
+        "status": "PASS",
+        "summary": "ERC is clean.",
+        "details": [
+          "ERC violations: 0",
+          "Symbols: 22",
+          "Power symbols: 36",
+          "Wires: 55",
+          "Labels: 21",
+          "Connectivity groups: 17",
+          "Unnamed single-pin groups: 8"
+        ]
+      },
+      {
+        "name": "Schematic connectivity",
+        "status": "FAIL",
+        "summary": "Connectivity smells suggest the schematic is not ready for PCB or release work.",
+        "details": [
+          "Pages analysed: 1",
+          "Top level: 58 symbol(s), 21 label(s), 55 wire(s)",
+          "Dangling label groups: 0",
+          "Zero-wire pages: 0",
+          "Unnamed single-pin groups: 0",
+          "Isolated footprint symbols: 4",
+          "Hierarchy contract mismatches: 0",
+          "Matched component contracts: 0",
+          "Component contract violations: 0",
+          "FAIL: Top level: H1 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.",
+          "FAIL: Top level: H2 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.",
+          "FAIL: Top level: H3 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity.",
+          "FAIL: Top level: H4 has footprint 'MountingHole:MountingHole_2.2mm_M2' but no meaningful net/power connectivity."
+        ]
+      },
+      {
+        "name": "Pre-sync",
+        "status": "FAIL",
+        "summary": "Schematic checks must pass before PCB sync to avoid transferring a stale or broken netlist.",
+        "details": [
+          "Schematic connectivity quality gate: FAIL",
+          "Connectivity smells suggest the schematic is not ready for PCB or release work.",
+          "Pages analysed: 1",
+          "Top level: 58 symbol(s), 21 label(s), 55 wire(s)",
+          "Dangling label groups: 0",
+          "Zero-wire pages: 0",
+          "Unnamed single-pin groups: 0",
+          "Isolated footprint symbols: 4"
+        ]
+      },
+      {
+        "name": "Schematic cosmetics",
+        "status": "WARN",
+        "summary": "Cosmetic score 32/100 on fancontroller.kicad_sch (worst category: readability). Advisory — does not block release.",
+        "details": [
+          "fancontroller.kicad_sch: score 32 (worst: readability)"
+        ]
+      },
+      {
+        "name": "PCB",
+        "status": "PASS",
+        "summary": "PCB passes DRC, unconnected, and courtyard checks.",
+        "details": [
+          "DRC violations: 0",
+          "Unconnected items: 0",
+          "Courtyard issues: 0"
+        ]
+      },
+      {
+        "name": "Placement",
+        "status": "FAIL",
+        "summary": "Footprint placement still violates hard physical or intent-aware checks.",
+        "details": [
+          "Footprints analysed: 22",
+          "Board frame: 25.65 x 36.83 mm",
+          "Density: 57.68%",
+          "Connector checks: 3",
+          "Decoupling pair checks: 0",
+          "RF keepout checks: 0",
+          "Power-tree refs checked: 3",
+          "Analog refs checked: 0",
+          "Digital refs checked: 0",
+          "Sensor-cluster refs checked: 0",
+          "Critical-net Manhattan proxy: 0.00 mm",
+          "Critical-net proxy density: 0.00 mm per 1000 mm^2",
+          "Thermal hotspot refs checked: 0",
+          "Thermal hotspot proximity: 0.0000",
+          "Placement score: 15/100",
+          "FAIL: Overlap refs: C2/IC2, C2/J1, C3/IC3, C4/H4, C5/REG1, IC1/J2, IC3/P1, J1/J2",
+          "FAIL: Outside-board refs: J1, P1",
+          "WARN: Placement spans most of the board; clustering looks weak."
+        ]
+      },
+      {
+        "name": "PCB transfer",
+        "status": "PASS",
+        "summary": "Named schematic pad nets match the PCB footprint pads.",
+        "details": [
+          "Expected named pad nets: 63",
+          "Matched pad nets on PCB: 63",
+          "Transfer coverage: 100.0%",
+          "Missing footprint refs on PCB: 0",
+          "Pad-net mismatches: 0"
+        ]
+      },
+      {
+        "name": "Manufacturing",
+        "status": "PASS",
+        "summary": "DFM checks passed.",
+        "details": [
+          "Profile: JLCPCB / standard",
+          "WARN: Copper layer count unavailable without an active board.",
+          "WARN: Minimum track width unavailable without an active board.",
+          "WARN: Minimum via drill unavailable without an active board.",
+          "WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+        ]
+      },
+      {
+        "name": "Footprint parity",
+        "status": "PASS",
+        "summary": "PCB and schematic references are aligned.",
+        "details": [
+          "Schematic files scanned: 1",
+          "Schematic refs with footprints: 22",
+          "PCB footprint refs (file): 22",
+          "Missing on board: 0",
+          "Missing in schematic: 0"
+        ]
+      }
+    ]
+  }
+}
