@@ -1,5 +1,7 @@
 # KiCad local state and generated checks
 *.kicad_prl
+~*.kicad_pcb.lck
+~*.kicad_pro.lck
 *.kicad_pro-bak
 *-backups/
 .kicad-mcp/

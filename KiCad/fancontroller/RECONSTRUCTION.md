@@ -22,6 +22,14 @@ This project was reconstructed from the supplied Gerber, drill, image, and BOM f
 
 ## Current limitations
 
+### Electrical reconstruction in progress (2026-10-22)
+
+The schematic has now been connected using named nets and pin stubs through KiCad MCP. Native KiCad 10.0.6 ERC reports zero findings. The stock-selected KF50BD-TR is represented by a generated project-local symbol with the manufacturer's SO-8 pinout and electrical types; its INHIBIT input is grounded to enable the regulator. The three selected capacitor replacements and regulator sourcing fields are synchronized with the quote BOM.
+
+The unused LM311 balance pins 5 and 6 are now explicitly unconnected rather than shorted. TI permits both configurations (LM311 datasheet, offset-balancing example: https://www.ti.com/lit/ds/symlink/lm311.pdf). This change must also be reflected in the recovered PCB routing. No ERC exclusions or severity changes were introduced. PWR_FLAG symbols identify the external 12 V supply and ground at J2. IC1 output/control, IC3 control/discharge, REG1 NC and J1 tach pins are intentionally unconnected, following the supplied circuit and fan interface.
+
+PCB reconstruction remains in progress; the older baseline limitations below still describe the board. A clean schematic ERC does not validate that artwork or approve ordering.
+
 - The schematic symbols are not wired. The supplied schematic images need manual net-by-net transcription and electrical review. ERC currently reports 79 findings, largely unconnected pins and undriven inputs.
 - The imported board has no recovered nets. Its 14 surface-mount footprints sit over Gerber artwork, so the 29 imported vias and 808 tracks are not electrically linked to those pads. Plated and non-plated holes, pad geometry, clearances, and stackup need verification against the original Gerbers and drill files.
 - Electrical DRC remains blocked: 639 findings on the artwork reconstruction, including unnetted pad/copper overlaps, imported hole/via artifacts, duplicate silkscreen and default 0.2 mm trace rules applied to original 0.16 mm tracks. These checks cannot certify the original CAD design. See the quote validation summary for exact counts.

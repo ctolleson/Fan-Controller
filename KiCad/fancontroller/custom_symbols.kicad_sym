@@ -2,14 +2,17 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "TS2938CS50"
+	(symbol "KF50BD_TR"
+		(pin_names
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 5.08 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18,18 +21,29 @@
 				)
 			)
 		)
-		(property "Value" "TS2938CS50"
+		(property "Value" "KF50BD_TR"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Recovered2018:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/kfxx.pdf"
+			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -39,8 +53,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Description" "ST KF50BD-TR: 5 V 500 mA SO-8 regulator, 20 V maximum input; INHIBIT low enables"
+			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -50,20 +64,20 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "KF50BD_TR_1_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
-		)
-		(symbol "TS2938CS50_1_1"
-			(pin passive line
-				(at 0 0 180)
+			(pin power_out line
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -80,8 +94,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -2.54 180)
+			(pin power_in line
+				(at -3.81 -6.35 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -98,8 +112,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -5.08 180)
+			(pin power_in line
+				(at -1.27 -6.35 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -116,8 +130,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -7.62 180)
+			(pin no_connect line
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -134,8 +148,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -10.16 180)
+			(pin input line
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "INHIBIT"
 					(effects
@@ -152,8 +166,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -12.7 180)
+			(pin power_in line
+				(at 1.27 -6.35 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -170,8 +184,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -15.24 180)
+			(pin power_in line
+				(at 3.81 -6.35 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -188,8 +202,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -17.78 180)
+			(pin power_in line
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
