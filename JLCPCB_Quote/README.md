@@ -40,3 +40,11 @@ The user authorized stocked replacements and confirmed a **12 V supply**. REG1 i
 The reconstructed schematic is unwired (ERC 79). The imported artwork lacks nets (DRC 639), although courtyard checking now passes. No waivers or exclusions were added. This folder is a **quote draft**, not an approved manufacturing release. Resolve electrical reconstruction and vendor part/placement review before ordering.
 
 The original C1, C4, C5 and REG1 parts had no available assembly stock. Stocked alternatives were matched in the live quote, and all 11 lines were confirmed. The editable KiCad reconstruction retains the recovered original component values; the workbook and quote BOM record the proposed 12 V build selections. Verify the replacements electrically before releasing a revised design.
+# PCB plus solder-paste stencil quote (saved 2026-10-22)
+
+Saved in the JLCPCB shopping cart as `fancontroller_original_gerbers_Y23`, PCB reference `Y23-8373413A` and stencil reference `SO12610230396-8373413A`. Five green, 1.6 mm, HASL PCBs with white silkscreen cost USD 4.10 including deburring. One frameless, top-side 150 × 150 mm solder-paste stencil costs USD 7.22. Merchandise total: USD 11.32. The instant-quote DHL Express DDP shipping estimate is USD 31.59 (2–4 business days), yielding USD 42.91 before any additional checkout tax. Shipping is an estimate; it is not locked in by saving the cart.
+
+This is a separate bare-PCB/stencil option; the earlier Economic SMT assembly option is also in the cart as `fancontroller_original_gerbers_Y21`. The cart also contains a second PCB/stencil draft, `Y22`, using the larger standard stencil. Only `Y23` is the compact-stencil quote reported here. No purchase was made. These saved options use the original Gerber ZIP; revised electrical reconstruction must be reviewed and its release files uploaded before ordering the repaired design.
+
+See `pcb_stencil_quote.json` and `pcb_stencil_saved_cart.png` for the saved quote record.
+

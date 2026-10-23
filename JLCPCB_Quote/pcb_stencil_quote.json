@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-22",
+  "currency": "USD",
+  "pcb_quantity": 5,
+  "pcb_usd": 4.1,
+  "pcb_silkscreen": "White, included",
+  "stencil_quantity": 1,
+  "stencil_size_mm": [
+    150,
+    150
+  ],
+  "stencil_side": "Top",
+  "stencil_framework": false,
+  "stencil_usd": 7.22,
+  "merchandise_usd": 11.32,
+  "shipping_estimate_usd": 31.59,
+  "shipping_service": "DHL Express (DDP), 2\u20134 business days",
+  "estimated_total_usd": 42.91,
+  "tax": "Checkout tax not finalized",
+  "saved_in_jlcpcb_cart": true,
+  "pcb_cart_reference": "Y23-8373413A",
+  "stencil_cart_reference": "SO12610230396-8373413A",
+  "cart_url": "https://cart.jlcpcb.com/shopcart/cart/",
+  "cart_edit_url": "https://cart.jlcpcb.com/shopcart/cartEdit/?id=523bfaf9478e4e31b322796c3e1a8a81&type=1&changeType=2&achieveDate=48",
+  "source_zip": "fancontroller_original_gerbers.zip",
+  "order_placed": false,
+  "release_status": "Quote only; PCB electrical reconstruction remains in progress"
+}
